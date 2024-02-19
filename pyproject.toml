@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "advanced-prompt-engineering"
+version = "0.1.0"
+description = ""
+authors = ["Luba"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "1.10"
+python-dotenv = "1.0.1"
+rich = "^13.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
